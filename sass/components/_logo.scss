@@ -1,25 +1,22 @@
 .logo {
-    font-weight: 700;
-    font-size: 26px;
-    line-height:  1.19;
-    font-style: normal;
-    letter-spacing: var(--letter-spacing-normal);
-    margin-right: 93px;
+  font-family: var(--secondary-font-family);
+  font-weight: var(--primry-font-weight);
+  font-size: 26px;
+  line-height: 1.19;
 }
-.logo__first-part {
-    color: var(--color-light-blue);
+
+.logo__element {
+  color: var(--accent-color);
 }
-.logo__second-part {
-    color: #000000 ;
+
+.logo__header {
+  margin-right: 93px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  color: var(--logo-color);
 }
-.footer-logo {
-    font-weight: 700;
-    font-size: 26px;
-    line-height:  1.19;
-    display: inline-block;
-    letter-spacing: var(--letter-spacing-normal);
-    margin-bottom: 20px;
-}
-.footer-logo__second-part {
-    color: var(--color-white) ;
+
+.logo__footer {
+  margin-bottom: 20px;
+  color: var(--other-color);
 }

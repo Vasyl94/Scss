@@ -1,0 +1,112 @@
+.modal-content {
+  padding: 40px;
+}
+
+.modal-form__title {
+  display: block;
+  margin-bottom: 12px;
+  font-weight: var(--primry-font-weight);
+  font-size: 20px;
+  line-height: 1.15;
+  text-align: center;
+}
+
+.modal-form__label {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-form__text {
+  margin-bottom: 4px;
+  font-weight: var(--secondary-font-weight);
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: 0.01em;
+  color: var(--secondary-color);
+}
+
+.modal-input__box {
+  position: relative;
+}
+
+.modal-form__input {
+  padding-left: 42px;
+  width: 100%;
+  height: 40px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  outline: none;
+
+  transition: border-color var(--transition-time-cubic);
+}
+
+.modal-form__input:focus {
+  border-color: var(--accent-color);
+}
+
+.modal-form__input:focus + .modal-form__icon {
+  fill: var(--accent-color);
+}
+
+.modal-form__icon--element {
+  position: absolute;
+  top: 50%;
+  left: 12px;
+  transform: translateY(-50%);
+  width: 18px;
+  height: 18px;
+
+  transition: fill var(--transition-time-cubic);
+}
+
+.modal-form__textarea {
+  margin-top: 4px;
+  width: 100%;
+  height: 120px;
+  padding-left: 16px;
+  padding-top: 12px;
+  resize: none;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  outline: none;
+
+  transition: border-color var(--transition-time-cubic);
+}
+
+.modal-form__textarea:focus {
+  border-color: var(--accent-color);
+}
+
+.modal-form-checkbox-label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  font-weight: var(--secondary-font-weight);
+  font-size: var(--primary-font-size);
+  line-height: 1.71;
+  color: var(--secondary-color);
+}
+
+.modal-form-checkbox-icon {
+  width: 16px;
+  height: 15px;
+  fill: #fff;
+  border: 2px solid #000000;
+  border-radius: 3px;
+  margin-right: 8px;
+}
+
+.modal-form-checkbox-input {
+  appearance: none;
+}
+
+.modal-form-checkbox-input:checked + .modal-form-checkbox-icon {
+  fill: var(--accent-color);
+  border: none;
+}
+
+.checkbox-policy {
+  color: var(--accent-color);
+}

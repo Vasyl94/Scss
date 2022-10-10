@@ -1,0 +1,37 @@
+.about-us {
+  padding-top: 0;
+}
+
+.about-us__title {
+  font-weight: var(--primry-font-weight);
+  font-size: 36px;
+  line-height: 1.16;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.about-list {
+  column-gap: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.about-list__item {
+  position: relative;
+}
+
+.img-overlay__text {
+  @extend %align;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 70px;
+  background-color: rgba(47, 48, 58, 0.8);
+  color: var(--other-color);
+  font-weight: var(--primry-font-weight);
+  font-size: var(--primary-font-size);
+  line-height: 1.14;
+  text-align: center;
+  text-transform: uppercase;
+}

@@ -1,27 +1,42 @@
-.link {
-    text-decoration: none;
-}
-.list {
-    list-style: none;
-}
-img {
-    display: block;
-    max-width: 100%;
-    height: auto;
-}
-button {
-    cursor: pointer;
-}
 h1,
 h2,
 h3,
 h4,
+h5,
+h6,
 p {
-    margin-top: 0;
-    margin-bottom: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
-ul {
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-left: 0;
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: var(--primary-font-size);
+  letter-spacing: 0.03em;
+  color: var(--main-color);
+  background-color: var(--other-color);
 }
